@@ -1,0 +1,141 @@
+#Menu{
+  font-size: 1.5rem;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  font-family: 'Inconsolata', monospace;}
+
+.heading,h1{
+  position: relative;
+  top: 56px;
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;}
+
+.glassTopPic{
+  top: 629px;
+  background-image: url("../pictures/glassPageHead.jpg");
+  height: 690px;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* SLIDESHOW SECTION */
+
+.slideshow{
+  display: flex;
+  height: 550px;
+  /* width: 300%; */
+  position: relative;
+  margin-top: 50px;
+  left: 6%;
+
+}
+.glassSlide{
+  position: absolute;
+  overflow:auto;
+  width: 100%;
+  }
+
+.glassFrame{
+  height: 500px;
+  margin-right: 20px;
+  padding: 80px;
+}
+
+ /* IMAGE INNER TEXT SECTION */
+
+.priceTag{
+  position: absolute;
+  top: 5px;
+  left: auto;
+  color: black;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+}
+.priceTag:hover{
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.blu > p:hover{
+  opacity: 0.9;
+  transition: 0.5s;
+  top: 5%;
+}
+.blu > button:hover{
+  opacity: 0.9;
+  transition: 0.5s;
+  top: 5%;
+  position: inherit;
+}
+
+.blu {
+  width:800px;
+}
+
+.blu > p{
+  height: 500px;
+  width: inherit;
+  font-family: 'Inconsolata', monospace;
+  margin-left: 6%;
+}
+p > a{
+  height: inherit;
+  width: 450px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  bottom: 15px;
+}
+p > a:hover{
+  color: black;
+  opacity: 2.9;
+  text-decoration: none;
+
+}
+
+
+
+
+/* FOOTER SECTION */
+/* footer{
+  margin-top: 100px;
+  height: 10%;
+  position: relative;
+  bottom: auto;
+  background-color: #eeeeee;
+  width: 100%;
+}
+.lala{
+  padding-left: 1%;
+}
+.logos{
+  position: relative;
+  top: 25px;
+  left:80%;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer p{
+  position: relative;
+  left: 10px;
+}
+
+@media screen and (max-width: 700px), screen and (max-height:550px) {
+footer{
+  width: 100%;
+  bottom: auto;
+}
+.logos{
+  left:50%;
+}
+} */

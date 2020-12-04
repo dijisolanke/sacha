@@ -1,0 +1,101 @@
+#Menu{
+  font-size: 1.5rem;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  font-family: 'Inconsolata', monospace;
+}
+.navbar-brand{
+  font-size: 2.25rem;
+}
+
+/* ***MAIN SECTION*** */
+
+.topPic{
+  background-image: url("../pictures/headPic1copy.jpg");
+  height: 690px;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 35px;
+}
+
+@media screen and (max-width: 1500px), screen and (max-height:750px){
+  .topPic{
+    top: -180px;
+  }
+  footer{
+    bottom: auto;
+    width: 100%;
+  }
+}
+
+/* FOOTER SECTION */
+footer{
+  margin-top: 400px;
+  height: 15%;
+  position: inherit;
+  bottom: 0;
+  background-color: #eeeeee;
+  width: 100%;
+}
+.footerLogo{
+  padding-left: 1%;
+  margin-left: 20px;
+}
+.logos{
+  position: relative;
+  top: 25px;
+  left:87%;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+footer p{
+  position: relative;
+  left: 10px;
+}
+.logos > a{
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 700px), screen and (max-height:550px) {
+footer{
+  width: 100%;
+  bottom: auto;
+  position: inherit;
+  margin-top: 80px;
+}
+.logos{
+  left:50%;
+}
+}
+
+
+/* ******CERAMICS PAGE CSS****** */
+.heading,h1{
+  position: relative;
+  top: 56px;
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+.ceramicsTopPic{
+  background-image: url("../pictures/sacha_03.jpg");
+  height: 690px;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 35px;
+}
